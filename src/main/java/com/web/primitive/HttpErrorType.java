@@ -1,0 +1,10 @@
+package com.web.primitive;
+
+public enum HttpErrorType
+{
+	SUCCESS,
+	ERROR_TYPE_REQUEST_FAIL,
+	ERROR_TYPE_RESPONS_FAIL,
+	ERROR_TYPE_NO_CONNECTION,
+	ERROR_TYPE_TIME_OUT
+}
